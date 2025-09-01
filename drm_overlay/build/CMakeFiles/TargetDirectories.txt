@@ -1,0 +1,3 @@
+/home/zext/outlibraries/drm_overlay/build/CMakeFiles/drm_overlay.dir
+/home/zext/outlibraries/drm_overlay/build/CMakeFiles/edit_cache.dir
+/home/zext/outlibraries/drm_overlay/build/CMakeFiles/rebuild_cache.dir

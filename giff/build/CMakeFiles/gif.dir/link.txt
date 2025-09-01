@@ -1,0 +1,1 @@
+/home/zext/RV1126B/buildroot/output/rockchip_rv1126b/host/bin/aarch64-buildroot-linux-gnu-gcc --sysroot=/home/zext/RV1126B/buildroot/output/rockchip_rv1126b/host/aarch64-buildroot-linux-gnu/sysroot CMakeFiles/gif.dir/gif.c.o -o gif   -L/home/zext/RV1126B/buildroot/output/rockchip_rv1126b/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib  -Wl,-rpath,/usr/lib -ldrm -llib 

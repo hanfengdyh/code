@@ -1,0 +1,3 @@
+/home/zext/outlibraries/drm/build/CMakeFiles/drm-single.dir
+/home/zext/outlibraries/drm/build/CMakeFiles/edit_cache.dir
+/home/zext/outlibraries/drm/build/CMakeFiles/rebuild_cache.dir

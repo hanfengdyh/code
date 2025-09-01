@@ -1,0 +1,10 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "bsp_i2c.h": "c",
+        "imx6ul.h": "c",
+        "stdio.h": "c",
+        "bsp_delay.h": "c",
+        "bsp_spi.h": "c"
+    }
+}

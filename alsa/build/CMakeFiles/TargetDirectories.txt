@@ -1,0 +1,3 @@
+/home/zext/outlibraries/alsa/build/CMakeFiles/alsa_test.dir
+/home/zext/outlibraries/alsa/build/CMakeFiles/edit_cache.dir
+/home/zext/outlibraries/alsa/build/CMakeFiles/rebuild_cache.dir

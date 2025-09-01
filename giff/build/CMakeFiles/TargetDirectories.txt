@@ -1,0 +1,3 @@
+/home/zext/outlibraries/gif/build/CMakeFiles/giff.dir
+/home/zext/outlibraries/gif/build/CMakeFiles/edit_cache.dir
+/home/zext/outlibraries/gif/build/CMakeFiles/rebuild_cache.dir
