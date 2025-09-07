@@ -1,0 +1,7 @@
+[01m[K/home/deep/robot_action_ws/src/move_robot_client/src/move_robot_action_client.cpp:105:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+  105 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+gmake[2]: *** [CMakeFiles/move_robot_action_client.dir/build.make:76：CMakeFiles/move_robot_action_client.dir/src/move_robot_action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/move_robot_action_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

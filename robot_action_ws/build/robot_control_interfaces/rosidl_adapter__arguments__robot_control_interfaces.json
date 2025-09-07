@@ -1,0 +1,6 @@
+{
+  "package_name": "robot_control_interfaces",
+  "non_idl_tuples": [
+    "/home/deep/robot_action_ws/src/robot_control_interfaces:action/MoveRobot.action"
+  ]
+}

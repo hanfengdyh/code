@@ -1,0 +1,46 @@
+[0.009s] Invoking command in '/home/deep/robot_action_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/deep/robot_action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_control_interfaces
+[0.049s] -- The C compiler identification is GNU 11.4.0
+[0.083s] -- The CXX compiler identification is GNU 11.4.0
+[0.087s] -- Detecting C compiler ABI info
+[0.135s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.194s] -- Detecting CXX compiler ABI info - done
+[0.198s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.198s] -- Detecting CXX compile features
+[0.198s] -- Detecting CXX compile features - done
+[0.199s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.294s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.341s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.359s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.364s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.371s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.460s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.525s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.540s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.645s] -- Found rclcpp_action: 21.0.8 (/opt/ros/iron/share/rclcpp_action/cmake)
+[0.716s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[0.716s]   By not providing "Findrobot_control_interfaces.cmake" in CMAKE_MODULE_PATH
+[0.716s]   this project has asked CMake to find a package configuration file provided
+[0.716s]   by "robot_control_interfaces", but CMake did not find one.
+[0.716s] 
+[0.716s]   Could not find a package configuration file provided by
+[0.716s]   "robot_control_interfaces" with any of the following names:
+[0.716s] 
+[0.716s]     robot_control_interfacesConfig.cmake
+[0.716s]     robot_control_interfaces-config.cmake
+[0.716s] 
+[0.716s]   Add the installation prefix of "robot_control_interfaces" to
+[0.716s]   CMAKE_PREFIX_PATH or set "robot_control_interfaces_DIR" to a directory
+[0.717s]   containing one of the above files.  If "robot_control_interfaces" provides
+[0.717s]   a separate development package or SDK, be sure it has been installed.
+[0.717s] 
+[0.717s] [0m
+[0.717s] -- Configuring incomplete, errors occurred!
+[0.717s] See also "/home/deep/robot_action_ws/build/robot_control_interfaces/CMakeFiles/CMakeOutput.log".
+[0.724s] Invoked command in '/home/deep/robot_action_ws/build/robot_control_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/deep/robot_action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_control_interfaces

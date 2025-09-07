@@ -1,0 +1,13 @@
+{
+  "package_name": "robot_control_interfaces",
+  "output_dir": "/home/deep/robot_action_ws/build/robot_control_interfaces/rosidl_generator_type_description/robot_control_interfaces",
+  "idl_tuples": [
+    "/home/deep/robot_action_ws/build/robot_control_interfaces/rosidl_adapter/robot_control_interfaces:action/MoveRobot.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/iron/share/service_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "action_msgs:/opt/ros/iron/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/iron/share/unique_identifier_msgs"
+  ]
+}

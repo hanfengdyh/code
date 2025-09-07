@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_control_interfaces__py",
+		"source" : "/home/deep/robot_action_ws/build/robot_control_interfaces/robot_control_interfaces__py"
+	}
+}

@@ -1,0 +1,34 @@
+[0.008s] Invoking command in '/home/deep/robot_action_ws/build/robot_core': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deep/robot_action_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_core
+[0.016s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.094s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.108s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.126s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.201s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.261s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.341s] -- Found rclcpp_action: 21.0.8 (/opt/ros/iron/share/rclcpp_action/cmake)
+[0.404s] -- Found robot_control_interfaces: 0.0.0 (/home/deep/robot_action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake)
+[0.443s] -- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.483s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.483s] -- Configured cppcheck include dirs: 
+[0.483s] -- Configured cppcheck exclude dirs and/or files: 
+[0.483s] -- Added test 'lint_cmake' to check CMake code style
+[0.484s] -- Added test 'uncrustify' to check C / C++ code style
+[0.484s] -- Configured uncrustify additional arguments: 
+[0.484s] -- Added test 'xmllint' to check XML markup files
+[0.485s] -- Configuring done
+[0.490s] -- Generating done
+[0.492s] -- Build files have been written to: /home/deep/robot_action_ws/build/robot_core
+[0.497s] Invoked command in '/home/deep/robot_action_ws/build/robot_core' returned '0': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deep/robot_action_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_core
+[0.499s] Invoking command in '/home/deep/robot_action_ws/build/robot_core': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deep/robot_action_ws/build/robot_core -- -j12 -l12
+[0.530s] [ 50%] [32mBuilding CXX object CMakeFiles/robot_core.dir/src/robot_core.cpp.o[0m
+[0.859s] [01m[K/home/deep/robot_action_ws/src/robot_core/src/robot_core.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Knlohmann/json.hpp: 没有那个文件或目录
+[0.859s]    13 | #include [01;31m[K<nlohmann/json.hpp>[m[K
+[0.859s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.859s] compilation terminated.
+[0.862s] gmake[2]: *** [CMakeFiles/robot_core.dir/build.make:76：CMakeFiles/robot_core.dir/src/robot_core.cpp.o] 错误 1
+[0.862s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/robot_core.dir/all] 错误 2
+[0.862s] gmake: *** [Makefile:146：all] 错误 2
+[0.864s] Invoked command in '/home/deep/robot_action_ws/build/robot_core' returned '2': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/deep/robot_action_ws/build/robot_core -- -j12 -l12

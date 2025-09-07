@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (robot_control_interfaces) JobQueued: {'identifier': 'robot_control_interfaces', 'dependencies': OrderedDict()}
+[0.000250] (robot_core) JobQueued: {'identifier': 'robot_core', 'dependencies': OrderedDict([('robot_control_interfaces', '/home/deep/robot_action_ws/install/robot_control_interfaces')])}
+[0.000265] (robot_control_interfaces) JobStarted: {'identifier': 'robot_control_interfaces'}
+[0.006200] (robot_control_interfaces) JobProgress: {'identifier': 'robot_control_interfaces', 'progress': 'cmake'}
+[0.006455] (robot_control_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/deep/robot_action_ws/src/robot_control_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_control_interfaces'], 'cwd': '/home/deep/robot_action_ws/build/robot_control_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'deep'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/deep'), ('OLDPWD', '/home/deep/robot_action_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1867'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7b634822fc77e11479cf99cf68bd93ba'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'deep'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'deep'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/deep-virtual-machine:@/tmp/.ICE-unix/1867,unix/deep-virtual-machine:/tmp/.ICE-unix/1867'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99103f77_22e7_46c4_b852_8b5d1e470370'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D8ZBC3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.126'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/deep/robot_action_ws/build/robot_control_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7b634822fc77e11479cf99cf68bd93ba'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.048689] (robot_control_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.083082] (robot_control_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.087500] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099097] (-) TimerEvent: {}
+[0.135450] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.138886] (robot_control_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.139048] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139363] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.141094] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193734] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.197766] (robot_control_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.197940] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198194] (robot_control_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199301] (robot_control_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.199467] (-) TimerEvent: {}
+[0.294160] (robot_control_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.299619] (-) TimerEvent: {}
+[0.341612] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.359555] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.364686] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.371676] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.380057] (robot_control_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399859] (-) TimerEvent: {}
+[0.460595] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.461475] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500418] (-) TimerEvent: {}
+[0.525331] (robot_control_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.539699] (robot_control_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[0.562214] (robot_control_interfaces) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600823] (-) TimerEvent: {}
+[0.645289] (robot_control_interfaces) StdoutLine: {'line': b'-- Found rclcpp_action: 21.0.8 (/opt/ros/iron/share/rclcpp_action/cmake)\n'}
+[0.701134] (-) TimerEvent: {}
+[0.716078] (robot_control_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:12 (find_package):\n'}
+[0.716265] (robot_control_interfaces) StderrLine: {'line': b'  By not providing "Findrobot_control_interfaces.cmake" in CMAKE_MODULE_PATH\n'}
+[0.716316] (robot_control_interfaces) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[0.716354] (robot_control_interfaces) StderrLine: {'line': b'  by "robot_control_interfaces", but CMake did not find one.\n'}
+[0.716387] (robot_control_interfaces) StderrLine: {'line': b'\n'}
+[0.716419] (robot_control_interfaces) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[0.716452] (robot_control_interfaces) StderrLine: {'line': b'  "robot_control_interfaces" with any of the following names:\n'}
+[0.716483] (robot_control_interfaces) StderrLine: {'line': b'\n'}
+[0.716515] (robot_control_interfaces) StderrLine: {'line': b'    robot_control_interfacesConfig.cmake\n'}
+[0.716548] (robot_control_interfaces) StderrLine: {'line': b'    robot_control_interfaces-config.cmake\n'}
+[0.716579] (robot_control_interfaces) StderrLine: {'line': b'\n'}
+[0.716608] (robot_control_interfaces) StderrLine: {'line': b'  Add the installation prefix of "robot_control_interfaces" to\n'}
+[0.716638] (robot_control_interfaces) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "robot_control_interfaces_DIR" to a directory\n'}
+[0.716673] (robot_control_interfaces) StderrLine: {'line': b'  containing one of the above files.  If "robot_control_interfaces" provides\n'}
+[0.716866] (robot_control_interfaces) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[0.716899] (robot_control_interfaces) StderrLine: {'line': b'\n'}
+[0.716918] (robot_control_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.716934] (robot_control_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.716959] (robot_control_interfaces) StdoutLine: {'line': b'See also "/home/deep/robot_action_ws/build/robot_control_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.723912] (robot_control_interfaces) CommandEnded: {'returncode': 1}
+[0.736834] (robot_control_interfaces) JobEnded: {'identifier': 'robot_control_interfaces', 'rc': 1}
+[0.747381] (robot_core) JobSkipped: {'identifier': 'robot_core'}
+[0.747422] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_action_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_robot_action_client.dir/src/move_robot_action_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot_action_client[0m
+[100%] Built target move_robot_action_client
+-- Install configuration: ""
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/lib/move_robot_client/move_robot_action_client
+-- Set runtime path of "/home/deep/robot_action_ws/install/move_robot_client/lib/move_robot_client/move_robot_action_client" to ""
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/package_run_dependencies/move_robot_client
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/parent_prefix_path/move_robot_client
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.sh
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.dsv
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.sh
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.dsv
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.bash
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.sh
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.zsh
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.dsv
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.dsv
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/packages/move_robot_client
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig.cmake
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig-version.cmake
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.xml

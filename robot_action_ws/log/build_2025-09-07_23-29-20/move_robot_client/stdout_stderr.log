@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target move_robot_action_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_robot_action_client.dir/src/move_robot_action_client.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move_robot_action_client[0m
+[100%] Built target move_robot_action_client
+-- Install configuration: ""
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/lib/move_robot_client/move_robot_action_client
+-- Set runtime path of "/home/deep/robot_action_ws/install/move_robot_client/lib/move_robot_client/move_robot_action_client" to ""
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/package_run_dependencies/move_robot_client
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/parent_prefix_path/move_robot_client
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.sh
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.sh
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.dsv
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.bash
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.sh
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.zsh
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.dsv
+-- Installing: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.dsv
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/packages/move_robot_client
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig.cmake
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig-version.cmake
+-- Up-to-date: /home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.xml

@@ -1,0 +1,16 @@
+/home/deep/robot_action_ws/install/robot_core/lib/robot_core/robot_core
+/home/deep/robot_action_ws/install/robot_core/share/ament_index/resource_index/package_run_dependencies/robot_core
+/home/deep/robot_action_ws/install/robot_core/share/ament_index/resource_index/parent_prefix_path/robot_core
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.sh
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/environment/ament_prefix_path.dsv
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/environment/path.sh
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/environment/path.dsv
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/local_setup.bash
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/local_setup.sh
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/local_setup.zsh
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/local_setup.dsv
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/package.dsv
+/home/deep/robot_action_ws/install/robot_core/share/ament_index/resource_index/packages/robot_core
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig.cmake
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/cmake/robot_coreConfig-version.cmake
+/home/deep/robot_action_ws/install/robot_core/share/robot_core/package.xml

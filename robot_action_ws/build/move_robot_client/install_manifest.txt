@@ -1,0 +1,16 @@
+/home/deep/robot_action_ws/install/move_robot_client/lib/move_robot_client/move_robot_action_client
+/home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/package_run_dependencies/move_robot_client
+/home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/parent_prefix_path/move_robot_client
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.sh
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/ament_prefix_path.dsv
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.sh
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/environment/path.dsv
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.bash
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.sh
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.zsh
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/local_setup.dsv
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.dsv
+/home/deep/robot_action_ws/install/move_robot_client/share/ament_index/resource_index/packages/move_robot_client
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig.cmake
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/cmake/move_robot_clientConfig-version.cmake
+/home/deep/robot_action_ws/install/move_robot_client/share/move_robot_client/package.xml

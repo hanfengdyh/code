@@ -1,0 +1,36 @@
+[0.008s] Invoking command in '/home/deep/robot_action_ws/build/robot_core': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deep/robot_action_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_core
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.186s] -- Detecting CXX compiler ABI info - done
+[0.190s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.190s] -- Detecting CXX compile features
+[0.191s] -- Detecting CXX compile features - done
+[0.192s] -- Found ament_cmake: 2.0.7 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.288s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.334s] -- Found rclcpp: 21.0.8 (/opt/ros/iron/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.359s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.366s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.521s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.535s] -- Found FastRTPS: /opt/ros/iron/include  
+[0.557s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.638s] -- Found rclcpp_action: 21.0.8 (/opt/ros/iron/share/rclcpp_action/cmake)
+[0.703s] -- Found robot_control_interfaces: 0.0.0 (/home/deep/robot_action_ws/install/robot_control_interfaces/share/robot_control_interfaces/cmake)
+[0.740s] [31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.740s]   ament_target_dependencies() the first argument must be a valid target name
+[0.740s] Call Stack (most recent call first):
+[0.740s]   CMakeLists.txt:17 (ament_target_dependencies)
+[0.740s] 
+[0.740s] [0m
+[0.740s] -- Configuring incomplete, errors occurred!
+[0.740s] See also "/home/deep/robot_action_ws/build/robot_core/CMakeFiles/CMakeOutput.log".
+[0.748s] Invoked command in '/home/deep/robot_action_ws/build/robot_core' returned '1': AMENT_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces:/opt/ros/iron LD_LIBRARY_PATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/deep/robot_action_ws/install/robot_control_interfaces/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/deep/robot_action_ws/src/robot_core -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_core

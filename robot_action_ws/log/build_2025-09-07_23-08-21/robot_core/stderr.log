@@ -1,0 +1,12 @@
+/usr/bin/ld: CMakeFiles/robot_core.dir/src/robot_core.cpp.o: in function `MoveRobotActionServer::MoveRobotActionServer()':
+robot_core.cpp:(.text._ZN21MoveRobotActionServerC2Ev[_ZN21MoveRobotActionServerC5Ev]+0x372): undefined reference to `redisConnect'
+/usr/bin/ld: CMakeFiles/robot_core.dir/src/robot_core.cpp.o: in function `MoveRobotActionServer::~MoveRobotActionServer()':
+robot_core.cpp:(.text._ZN21MoveRobotActionServerD2Ev[_ZN21MoveRobotActionServerD5Ev]+0x3d): undefined reference to `redisFree'
+/usr/bin/ld: CMakeFiles/robot_core.dir/src/robot_core.cpp.o: in function `MoveRobotActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<robot_control_interfaces::action::MoveRobot> >)':
+robot_core.cpp:(.text._ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE[_ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE]+0x28c): undefined reference to `redisCommand'
+/usr/bin/ld: robot_core.cpp:(.text._ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE[_ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE]+0x896): undefined reference to `freeReplyObject'
+/usr/bin/ld: robot_core.cpp:(.text._ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE[_ZN21MoveRobotActionServer7executeESt10shared_ptrIN13rclcpp_action16ServerGoalHandleIN24robot_control_interfaces6action9MoveRobotEEEE]+0x8f9): undefined reference to `freeReplyObject'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/robot_core.dir/build.make:192：robot_core] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/robot_core.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,82 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robot_control_interfaces/action/MoveRobot.action
+// generated code does not contain a copyright notice
+
+
+module robot_control_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MoveRobot_Goal {
+      @verbatim (language="comment", text=
+        "指令名称: \"run\", \"status.routine.body.push_up\", \"status.routine.body.wave\"")
+      string command;
+
+      @verbatim (language="comment", text=
+        "模式: 0=基于时间, 1=基于次数")
+      int32 mode;
+
+      @verbatim (language="comment", text=
+        "速度 (适用 run / wave)")
+      int32 speed;
+
+      @verbatim (language="comment", text=
+        "持续时间 (仅当 mode=0 时有效)")
+      float duration;
+
+      @verbatim (language="comment", text=
+        "振幅 (适用 wave)")
+      int32 amplitude;
+
+      @verbatim (language="comment", text=
+        "执行次数 (仅当 mode=1 时有效)")
+      int32 times;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MoveRobot_Result {
+      @verbatim (language="comment", text=
+        "错误码, 0=成功, 非0=失败")
+      int32 error_code;
+
+      @verbatim (language="comment", text=
+        "错误描述")
+      string error_message;
+
+      @verbatim (language="comment", text=
+        "\"succeeded\" / \"failed\" / \"aborted\"")
+      string execution_status;
+
+      @verbatim (language="comment", text=
+        "完成度 0~100")
+      float progress;
+
+      @verbatim (language="comment", text=
+        "已完成次数 (适用于 push_up / wave)")
+      int32 count;
+
+      @verbatim (language="comment", text=
+        "任务开始时间戳")
+      int64 start_time;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MoveRobot_Feedback {
+      @verbatim (language="comment", text=
+        "实时进度百分比")
+      float progress;
+
+      @verbatim (language="comment", text=
+        "\"running\" / \"idle\" / \"failed\"")
+      string execution_status;
+
+      @verbatim (language="comment", text=
+        "错误码 (执行中出现问题)")
+      int32 error_code;
+
+      @verbatim (language="comment", text=
+        "已完成次数 (适用于基于次数的动作)")
+      int32 count;
+    };
+  };
+};

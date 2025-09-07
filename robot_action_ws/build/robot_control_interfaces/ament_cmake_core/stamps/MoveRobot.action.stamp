@@ -1,0 +1,24 @@
+# Goal
+string command              # 指令名称: "run", "status.routine.body.push_up", "status.routine.body.wave"
+int32 mode                  # 模式: 0=基于时间, 1=基于次数
+int32 speed                 # 速度 (适用 run / wave)
+float32 duration            # 持续时间 (仅当 mode=0 时有效)
+int32 amplitude             # 振幅 (适用 wave)
+int32 times                 # 执行次数 (仅当 mode=1 时有效)
+
+---
+# Result
+int32 error_code            # 错误码, 0=成功, 非0=失败
+string error_message        # 错误描述
+string execution_status     # "succeeded" / "failed" / "aborted"
+float32 progress            # 完成度 0~100
+int32 count                 # 已完成次数 (适用于 push_up / wave)
+int64 start_time            # 任务开始时间戳
+
+---
+# Feedback
+float32 progress            # 实时进度百分比
+string execution_status     # "running" / "idle" / "failed"
+int32 error_code            # 错误码 (执行中出现问题)
+int32 count                 # 已完成次数 (适用于基于次数的动作)
+

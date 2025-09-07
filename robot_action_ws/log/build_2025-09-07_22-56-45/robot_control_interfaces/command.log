@@ -1,0 +1,2 @@
+Invoking command in '/home/deep/robot_action_ws/build/robot_control_interfaces': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/deep/robot_action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_control_interfaces
+Invoked command in '/home/deep/robot_action_ws/build/robot_control_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/deep/robot_action_ws/src/robot_control_interfaces -DCMAKE_INSTALL_PREFIX=/home/deep/robot_action_ws/install/robot_control_interfaces
